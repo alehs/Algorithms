@@ -1,4 +1,4 @@
-package edu.hw1;
+package edu.algo.sort;
 
 import java.io.BufferedReader;
 import java.io.File;
