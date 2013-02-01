@@ -1,11 +1,11 @@
-package edu.algo.graph;
+package edu.algo.graph.impl;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import edu.algo.graph.impl.MatrixGraph;
+import edu.algo.graph.Graph;
 
-public class GraphTest {
+public class MatrixGraphTest {
 
     @Test
     public void testGetReachableNodes() {

@@ -17,9 +17,9 @@ public class GraphLoader {
             String totalStr = scanner.nextLine();
             String totals[] = totalStr.split("\\s");
             int totalNodes = Integer.valueOf(totals[0]);
-            int totalEdges = Integer.valueOf(totals[1]);
+            //int totalEdges = Integer.valueOf(totals[1]);
 
-            graph = new MatrixGraph(totalNodes, totalEdges);
+            graph = new MatrixGraph(totalNodes, 0/*totalEdges*/);
 
             while(scanner.hasNextLine()) {
                 String line = scanner.nextLine();
