@@ -10,6 +10,7 @@ import edu.algo.graph.impl.MatrixGraph;
 public class GraphLoader {
 
     public static Graph loadWeightedMatrixGraph(String path) throws FileNotFoundException {
+<<<<<<< HEAD
         Graph graph = null;
         try (Scanner scanner = Utils.openFile(path)) {
     		String totalStr = scanner.nextLine();
@@ -19,6 +20,28 @@ public class GraphLoader {
 
     		graph = new MatrixGraph(totalNodes, 0/*totalEdges*/);
             readToGraph(scanner, graph);
+=======
+        MatrixGraph graph = null;
+
+        File file = new File(path);
+        Scanner scanner = new Scanner(file);
+        try {
+            String totalStr = scanner.nextLine();
+            String totals[] = totalStr.split("\\s");
+            int totalNodes = Integer.valueOf(totals[0]);
+            //int totalEdges = Integer.valueOf(totals[1]);
+
+            graph = new MatrixGraph(totalNodes, 0/*totalEdges*/);
+
+            while(scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                String[] parts = line.split("\\s");
+                graph.addEdge(Integer.valueOf(parts[0]), Integer.valueOf(parts[1]), Integer.valueOf(parts[2]));
+            }
+
+        } finally {
+           scanner.close();
+>>>>>>> 86788c859823aaa4da18222fcc3e639facb51d07
         }
         return graph;
     }
