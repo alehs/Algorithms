@@ -41,10 +41,13 @@ public class TSP {
 	}
 
 	public static void main(String[] args) throws FileNotFoundException {
-		long startTime = System.currentTimeMillis();
 		TspMap data = TspMapLoader.loadTSP("data/tsp.txt");
+
+		long startTime = System.currentTimeMillis();
+
 		TSP tsp = new TSP(data.size());
 		Utils.print("Minimum cost = " + tsp.execute(data));
+
 		Utils.print("Finished in " + (System.currentTimeMillis() - startTime)/1000 + "sec");
 	}
 
