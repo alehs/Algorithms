@@ -4,11 +4,17 @@ import java.util.List;
 
 public interface Graph {
 
-    public abstract List<Integer> getReachableNodes(int node);
+    List<Integer> getReachableNodes(int node);
 
-    public abstract int getEdgeWeight(int v1, int v2);
+	List<Integer> getIncomingNodes(int node);
 
-    public abstract Edge getEdge(int v1, int v2);
+    void addEdge(int v1, int v2, int weight);
 
-    public abstract int size();
+    int getEdgeWeight(int v1, int v2);
+
+    boolean hasEdge(int v1, int v2);
+
+    Edge getEdge(int v1, int v2);
+
+    int size();
 }

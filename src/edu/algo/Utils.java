@@ -1,5 +1,9 @@
 package edu.algo;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 
 public final class Utils {
 
@@ -27,5 +31,10 @@ public final class Utils {
 
     public static void printf(String pattern, Object... args) {
         System.out.printf(pattern, args);
+    }
+
+    public static Scanner openFile(String path) throws FileNotFoundException {
+        File file = new File(path);
+        return new Scanner(file);
     }
 }

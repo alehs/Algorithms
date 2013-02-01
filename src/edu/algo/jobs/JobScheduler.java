@@ -18,11 +18,11 @@ public class JobScheduler {
 
         calcOrderDiff(cp1);
         schedule(cp1);
-        Utils.print("Total compleation time for diff orderign = " + calcCompleationTime(cp1));
+        Utils.print("Total compleation time for diff ordering = " + calcCompleationTime(cp1));
 
         calcOrderRatio(cp2);
         schedule(cp2);
-        Utils.print("Total compleation time for ratio orderign = " + calcCompleationTime(cp2));
+        Utils.print("Total compleation time for ratio ordering = " + calcCompleationTime(cp2));
         //Utils.print(Arrays.toString(jobs.toArray()));
     }
 

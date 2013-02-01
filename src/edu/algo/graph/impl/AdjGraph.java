@@ -49,6 +49,24 @@ public class AdjGraph implements Graph {
         return null;
     }
 
+	@Override
+	public boolean hasEdge(int v1, int v2) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void addEdge(int v1, int v2, int weight) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Integer> getIncomingNodes(int node) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 //    public Integer getEdgeCost(Integer v1, Integer v2) {
 //         
 //    }

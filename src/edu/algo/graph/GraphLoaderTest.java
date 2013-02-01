@@ -23,7 +23,6 @@ public class GraphLoaderTest {
 
         for (int i = 0; i < expected.size(); i++) {
             Assert.assertEquals(expected.get(i), actual.get(i));
-            
         }
     }
 }

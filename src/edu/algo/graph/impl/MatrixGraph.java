@@ -28,15 +28,15 @@ public class MatrixGraph implements Graph {
         graph[i2][i1] = weight;
     }
 
-    private final int toIndex(int v) {
+    protected final int toIndex(int v) {
         return v-1;
     }
 
-    private final int fromIndex(int index) {
+    protected final int fromIndex(int index) {
         return index + 1;
     }
 
-    private void checkRange(int v) {
+    protected void checkRange(int v) {
         if (v > graph.length) {
             throw new RuntimeException("Vertex number " + v + " exceeds graph size " + graph.length);
         }
@@ -54,7 +54,19 @@ public class MatrixGraph implements Graph {
                 nodes.add(fromIndex(i));
             }
         }
-        return nodes; 
+        return nodes;
+    }
+
+    @Override
+    public List<Integer> getIncomingNodes(int node) {
+        List<Integer> nodes = new ArrayList<>();
+        int nindex = toIndex(node);
+        for (int i = 0; i < graph.length; i++) {
+			if (graph[i][nindex] != 0) {
+				nodes.add(fromIndex(i));
+			}
+		}
+        return nodes;
     }
 
     /* (non-Javadoc)
@@ -71,13 +83,18 @@ public class MatrixGraph implements Graph {
     @Override
     public Edge getEdge(int v1, int v2) {
         Edge e = null;
-        if (v1 > 0 && v2 > 0) {
+        if (v1 > 0 && v2 > 0 && v1 != v2) {
             int cost = getEdgeWeight(v1, v2);
-            if (cost != 0) {
-                e = new Edge(v1, v2, cost);
-            }
+            e = new Edge(v1, v2, cost);
+//            if (cost != 0) {
+//                e = new Edge(v1, v2, cost);
+//            }
         }
         return e;
+    }
+
+    public boolean hasEdge(int v1, int v2) {
+    	return getEdgeWeight(v1, v2) != 0;
     }
 
     /* (non-Javadoc)
