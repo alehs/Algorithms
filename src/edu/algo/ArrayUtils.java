@@ -14,27 +14,33 @@ public final class ArrayUtils {
 		return false;
 	}
 
-    public static int[][] fromList(List<List<Integer>> list) {
-        int[][] result = new int[list.size()][];
-        for (int i = 0; i < list.size(); i++) {
-            result[i] = new int[list.get(i).size()];
+	public static int[][] fromList(List<List<Integer>> list) {
+		int[][] result = new int[list.size()][];
+		for (int i = 0; i < list.size(); i++) {
+			result[i] = new int[list.get(i).size()];
 
-            List<Integer> edgesList = list.get(i);
-            int j = 0;
-            for (int k : edgesList) {
-                result[i][j++] = k;
-            }
-        }
+			List<Integer> edgesList = list.get(i);
+			int j = 0;
+			for (int k : edgesList) {
+				result[i][j++] = k;
+			}
+		}
 
-        return result;
-    }
+		return result;
+	}
 
-    public static int[] fromList(ArrayList<Integer> list) {
-        int[] arr = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            arr[i] = list.get(i);
-        }
-        return arr;
-    }
+	public static int[] fromList(ArrayList<Integer> list) {
+		int[] arr = new int[list.size()];
+		for (int i = 0; i < list.size(); i++) {
+			arr[i] = list.get(i);
+		}
+		return arr;
+	}
+
+	public static void swap(int[] arr, int first, int second) {
+		int tmp = arr[first];
+		arr[first] = arr[second];
+		arr[second] = tmp;
+	}
 
 }

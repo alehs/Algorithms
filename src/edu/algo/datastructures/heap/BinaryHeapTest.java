@@ -1,0 +1,20 @@
+package edu.algo.datastructures.heap;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class BinaryHeapTest {
+
+	@Test
+	public void testBinaryHeap() {
+		BinaryHeap pq = new BinaryHeap(10);
+		pq.insert("C");
+		pq.insert("D");
+		pq.insert("E");
+		assertEquals("C", pq.pop());
+		pq.insert("F");
+		assertEquals("D", pq.pop());
+	}
+
+}

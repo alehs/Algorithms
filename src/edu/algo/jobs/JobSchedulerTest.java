@@ -3,9 +3,9 @@ package edu.algo.jobs;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import junit.framework.Assert;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class JobSchedulerTest {
 
@@ -19,14 +19,14 @@ public class JobSchedulerTest {
         JobScheduler.calcOrderDiff(test);
         JobScheduler.schedule(test);
 
-        Assert.assertEquals(2d, test.get(0).order);
-        Assert.assertEquals(5, test.get(0).getWeight());
+        assertEquals(2d, test.get(0).order);
+        assertEquals(5, test.get(0).getWeight());
 
-        Assert.assertEquals(2d, test.get(1).order);
-        Assert.assertEquals(4, test.get(1).getWeight());
+        assertEquals(2d, test.get(1).order);
+        assertEquals(4, test.get(1).getWeight());
 
-        Assert.assertEquals(1d, test.get(2).order);
-        Assert.assertEquals(6, test.get(2).getWeight());
+        assertEquals(1d, test.get(2).order);
+        assertEquals(6, test.get(2).getWeight());
     }
 
     @Test
@@ -39,14 +39,14 @@ public class JobSchedulerTest {
         JobScheduler.calcOrderRatio(test);
         JobScheduler.schedule(test);
 
-        Assert.assertEquals(2d, test.get(0).order);
-        Assert.assertEquals(4, test.get(0).getWeight());
+        assertEquals(2d, test.get(0).order);
+        assertEquals(4, test.get(0).getWeight());
 
-        Assert.assertEquals(1.6666666666666667d, test.get(1).order);
-        Assert.assertEquals(5, test.get(1).getWeight());
+        assertEquals(1.6666666666666667d, test.get(1).order);
+        assertEquals(5, test.get(1).getWeight());
 
-        Assert.assertEquals(1.2d, test.get(2).order);
-        Assert.assertEquals(6, test.get(2).getWeight());
+        assertEquals(1.2d, test.get(2).order);
+        assertEquals(6, test.get(2).getWeight());
     }
 
     @Test
@@ -58,11 +58,11 @@ public class JobSchedulerTest {
 
         long total = JobScheduler.calcCompleationTime(test);
 
-        Assert.assertEquals(93L, total);
+        assertEquals(93L, total);
 
-        Assert.assertEquals(8L, test.get(0).cmptime);
-        Assert.assertEquals(25L, test.get(1).cmptime);
-        Assert.assertEquals(60L, test.get(2).cmptime);
+        assertEquals(8L, test.get(0).cmptime);
+        assertEquals(25L, test.get(1).cmptime);
+        assertEquals(60L, test.get(2).cmptime);
 
     }
 }
