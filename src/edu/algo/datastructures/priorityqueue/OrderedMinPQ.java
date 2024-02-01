@@ -1,7 +1,10 @@
 package edu.algo.datastructures.priorityqueue;
 
 /**
- * Remove largest (or smallest) items from the queue
+ * Elementary implementation using ordered array
+ * Keep items sorted,
+ * find position for new item using binary search,
+ * shift all items to the right
  */
 public class OrderedMinPQ<Key extends Comparable> implements PQ<Key> {
 

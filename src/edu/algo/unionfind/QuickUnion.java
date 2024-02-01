@@ -31,7 +31,7 @@ public class QuickUnion implements Union {
 	public void union(int p, int q) {
 		int pRoot = root(p);
 		int qRoot = root(q);
-		id [pRoot] = qRoot;
+		id[pRoot] = qRoot;
 	}
 
 	@Override

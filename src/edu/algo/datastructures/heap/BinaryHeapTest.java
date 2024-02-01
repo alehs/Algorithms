@@ -9,11 +9,11 @@ public class BinaryHeapTest {
 	@Test
 	public void testBinaryHeap() {
 		BinaryHeap pq = new BinaryHeap(10);
-		pq.insert("C");
 		pq.insert("D");
 		pq.insert("E");
-		assertEquals("C", pq.pop());
-		pq.insert("F");
+		pq.insert("C");
+		assertEquals("E", pq.pop());
+		pq.insert("A");
 		assertEquals("D", pq.pop());
 	}
 

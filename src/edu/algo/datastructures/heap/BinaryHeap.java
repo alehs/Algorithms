@@ -1,19 +1,20 @@
 package edu.algo.datastructures.heap;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-
 /**
- * Binary Heap - aray representation of a heap-ordered complete binary tree
+ * Binary Heap - array representation of a heap-ordered complete binary tree
  *  - keys in nodes
  *  - parent's key no smaller than children's keys (heap ordering)
  *
  * Binary tree - empty or node with links to left and right binary trees
- * Complete tree - perfectly balanced, except for bottom level
+ * Complete tree - perfectly balanced, except for bottom level=
  *
- * Height of complete tree of N nodes - log N
- * Height only increases if N is a power of 2
+ * Properties:
+ *  - Height of complete tree of N nodes - log N
+ *  - Height only increases if N is a power of 2
+ *
+ *  Basic logic:
+ *   - add new element to the end and swim it up.
+ *   - remove element - exchange it with latest one and then sink it.
  */
 public class BinaryHeap<Key extends Comparable> {
 
@@ -24,7 +25,9 @@ public class BinaryHeap<Key extends Comparable> {
 	 *      B 			C
 	 *   D     E     F
 	 *
-	 *  arr: -,A,B,C,D,E,F
+	 *  arr:
+	 *  0, 1, 2, 3, 4, 5, 6
+	 *  -, A, B, C, D, E, F
 	 *
 	 * Props:
 	 *  largest key is a root.
@@ -40,22 +43,26 @@ public class BinaryHeap<Key extends Comparable> {
 	/**
 	 * If element's value is grated then it's parent, then exchange them.
 	 * and continue back to the top.
+	 *
+	 * hint: parent node of K is K/2
 	 */
 	void swim(int k) {
 		while (k > 1 && less(k/2, k)) {
-			exchange(k/2, k);
+			exchange(k, k/2);
 			k = k/2;
 		}
 	}
 
 	/**
 	 * If element's value is less then it's children, then exchange them.
+	 *
+	 * hint: children nodes of K is K*2 and K*2+1
 	 * @param k
 	 */
 	void sink(int k) {
 		while (2*k <= size) {
 			int ch = 2*k;  // left child of k
-			if (ch < size && less(ch, ch+1)) ch++;  // in right child is bigger - take it.
+			if (ch < size && less(ch, ch+1)) ch++;  // if right child is bigger - take it.
 			if (!less(k, ch)) break;
 			exchange(k, ch);
 			k = ch;
@@ -84,7 +91,7 @@ public class BinaryHeap<Key extends Comparable> {
 		arr[k] = temp;
 	}
 
-	private boolean less(int i, int k) {
-		return (arr[i]).compareTo(arr[k]) > 0;
+	private boolean less(int a, int b) {
+		return (arr[a]).compareTo(arr[b]) < 0;
 	}
 }

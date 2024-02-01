@@ -43,4 +43,9 @@ public final class ArrayUtils {
 		arr[second] = tmp;
 	}
 
+	public static void swap(Object[] arr, int first, int second) {
+		Object tmp = arr[first];
+		arr[first] = arr[second];
+		arr[second] = tmp;
+	}
 }

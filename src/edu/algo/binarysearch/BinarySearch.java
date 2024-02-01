@@ -3,7 +3,7 @@ package edu.algo.binarysearch;
 public class BinarySearch {
 
 	public static void main(String[] args) {
-		int[] input = new int[] {1, 2,3, 4, 5, 6, 7, 8, 10,11,12,13,14,15,16,17,21};
+		int[] input = new int[] {1,2,3, 4, 5, 6, 7, 8, 10,11,12,13,14,15,16,17,21};
 		int target = 21;
 		int position = binarySearch_recursive(input, target, 0, input.length);
 		System.out.println("Position of " + target + " is :" + position);

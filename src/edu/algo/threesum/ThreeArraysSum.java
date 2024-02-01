@@ -24,20 +24,6 @@ public class ThreeArraysSum {
 		for (ThreeSum.Triple t : result) {
 			System.out.println(t);
 		}
-		// -19, -9, 1, 21, 25
-		// -28, 2, 12, 22
-		// -13, 7, 17
-
-		// x = x1*10 + 1
-		// y = y1*10 + 2
-		// z = z1*10 - 3
-
-		// x = x1*10  => 10, 20, 30
-		// y = y1*10+1 => 11, 21, 31
-		// z = z1*10-1 =>
-		// 17 = x*10 + 1 => x = 16/10
-		// 17 = x*10 + 2 => 15/10
-
 	}
 
 	private static List<ThreeSum.Triple> sum3x3_merging(int[] x, int[] y, int[] z) {
