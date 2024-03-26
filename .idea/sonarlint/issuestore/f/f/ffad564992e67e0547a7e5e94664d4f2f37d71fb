@@ -1,0 +1,21 @@
+
+{
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒà˜…ûÿÿÿÿ8ð¬í«¨1
+V
+java:S1874"4Remove this use of "findCheapest"; it is deprecated.(ÅÏ”Ëýÿÿÿÿ8÷¬í«¨1
+S
+java:S38781"8Remove this array creation and simply pass the elements.(ñ×£Ôüÿÿÿÿ
+M
+java:S38787"8Remove this array creation and simply pass the elements.(Èï—<
+S
+java:S3878="8Remove this array creation and simply pass the elements.(Ž®‡Äúÿÿÿÿ
+S
+java:S3878C"8Remove this array creation and simply pass the elements.(‡Ì“¼ûÿÿÿÿ
+S
+java:S3878P"8Remove this array creation and simply pass the elements.(ËŠÖ•øÿÿÿÿ
+M
+java:S3878V"8Remove this array creation and simply pass the elements.(½…åP
+N
+java:S3878["8Remove this array creation and simply pass the elements.(Ó´²Ü
+F
+java:S5960"+Remove this assertion from production code.(»ºðüÿÿÿÿ

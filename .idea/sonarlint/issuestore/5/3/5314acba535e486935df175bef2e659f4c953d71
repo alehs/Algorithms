@@ -1,0 +1,14 @@
+
+U
+java:S1118
+":Add a private constructor to hide the implicit public one.(á…„»ûÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(Ç£ÀÚ
+O
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(›ý«Ð
+Q	java:S125"<This block of commented-out lines of code should be removed.(É±…
+@
+java:S1197"*Move the array designators [] to the type.(Ç£ÀÚ
+O
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(›ý«Ð
+Q	java:S125 "<This block of commented-out lines of code should be removed.(É±…

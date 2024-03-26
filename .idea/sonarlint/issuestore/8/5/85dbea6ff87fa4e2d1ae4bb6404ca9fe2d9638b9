@@ -1,0 +1,5 @@
+
+
+java:S1319 "dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(ÇÛÇÿÿÿÿÿ
+O
+java:S1118":Add a private constructor to hide the implicit public one.(î‡G

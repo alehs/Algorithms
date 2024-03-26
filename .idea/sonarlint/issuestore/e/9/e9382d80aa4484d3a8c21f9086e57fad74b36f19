@@ -1,0 +1,8 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(º—ìİ8¡Øø©1
+L	java:S106"+Replace this use of System.out by a logger.(¤¸¤ûÿÿÿÿ8‚ÆÒø©1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§×¸åüÿÿÿÿ8‚ÆÒø©1
+Q
+java:S1128	"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8…ÆÒø©1
+U
+java:S1144"3Remove this unused private "sum3x3_merging" method.(§×¸åüÿÿÿÿ8¢¡Øø©1

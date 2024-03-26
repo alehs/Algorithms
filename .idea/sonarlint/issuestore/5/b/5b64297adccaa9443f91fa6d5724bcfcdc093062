@@ -1,0 +1,12 @@
+
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÀÌ¤»8òªà‹¬1
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ïà•å8óªà‹¬1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘8óªà‹¬1
+>
+java:S1116"Remove this empty statement.(Ìù™Ûûÿÿÿÿ8ôªà‹¬1
+G	java:S106("+Replace this use of System.out by a logger.(Üã‘ö8õªà‹¬1
+l
+java:S1128"ORemove this unused import 'javax.annotation.processing.SupportedSourceVersion'.(…™Þ¬8õªà‹¬1

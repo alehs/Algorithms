@@ -1,0 +1,22 @@
+
+p
+java:S1192"ZDefine a constant instead of duplicating this literal "data/unionfind/tinyUF.txt" 3 times.(¦¿Óü
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¿Óü
+f	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹øêÆ
+f	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ•É›
+E
+java:S1611"/Remove the parentheses around the "N" parameter(¦¿Óü
+R
+java:S1612"<Replace this lambda with method reference 'QuickFind::init'.(¦¿Óü
+E
+java:S1611/"/Remove the parentheses around the "N" parameter(‹øêÆ
+S
+java:S1612/"=Replace this lambda with method reference 'QuickUnion::init'.(‹øêÆ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(˜´”Îüÿÿÿÿ
+E
+java:S16119"/Remove the parentheses around the "N" parameter(Ÿ•É›
+[
+java:S16129"EReplace this lambda with method reference 'WeightedQuickUnion::init'.(Ÿ•É›
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(˜´”Îüÿÿÿÿ
+F
+java:S5960"+Remove this assertion from production code.(€ÈÕ­ýÿÿÿÿ

@@ -1,0 +1,11 @@
+
+m
+java:S1192"RDefine a constant instead of duplicating this literal "Start alogrithm.." 3 times.(ñÆ…úÿÿÿÿ
+|
+java:S41654"_Remove this useless assignment; "k" already holds the assigned value along all execution paths.(ê¸ğØ8Ü§í«¨1
+Q	java:S125"<This block of commented-out lines of code should be removed.(Â¿’·
+=
+java:S1659+""Declare "maxK" on a separate line.(é¸ó¥ıÿÿÿÿ
+8
+java:S1659N""Declare "maxK" on a separate line.(şø¤å
+V	java:S125O"<This block of commented-out lines of code should be removed.(ëÜ’€úÿÿÿÿ

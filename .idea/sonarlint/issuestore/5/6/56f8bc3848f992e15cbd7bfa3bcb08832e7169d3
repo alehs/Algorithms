@@ -1,0 +1,20 @@
+
+ƒ
+java:S6485"mReplace this call to the constructor with the better suited static method HashSet.newHashSet(int numMappings)(õò˜”
+ƒ
+java:S6485"mReplace this call to the constructor with the better suited static method HashMap.newHashMap(int numMappings)(ã¹­„
+ˆ
+java:S6485"mReplace this call to the constructor with the better suited static method HashMap.newHashMap(int numMappings)(éáê—þÿÿÿÿ
+<
+java:S2153"Remove the boxing to "Integer".(ÁÉæ¢8Ð¡í«¨1
+A
+java:S2153"Remove the boxing to "Integer".(ÞÝÆ¾ùÿÿÿÿ8Ð¡í«¨1
+P
+java:S6213&":Rename this variable to not match a restricted identifier.(Àç–²
+U
+java:S6213+":Rename this variable to not match a restricted identifier.(¯Ò±Ìþÿÿÿÿ
+U
+java:S62134":Rename this variable to not match a restricted identifier.(ê„Ê©þÿÿÿÿ
+U
+java:S6213E":Rename this variable to not match a restricted identifier.(‰Á¥Ùùÿÿÿÿ
+Q	java:S125L"<This block of commented-out lines of code should be removed.(¼Žƒê

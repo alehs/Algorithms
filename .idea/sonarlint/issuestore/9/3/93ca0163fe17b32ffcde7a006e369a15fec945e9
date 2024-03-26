@@ -1,0 +1,10 @@
+
+L	java:S106	"+Replace this use of System.out by a logger.(Ü¿‚ğúÿÿÿÿ8£§ó©1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’†ƒÆ8‚£§ó©1
+X
+java:S1172";Remove these unused method parameters "unused1", "unused2".(’†ƒÆ8Ç¬ó©1
+=
+java:S1659"!Declare "end" on a separate line.(ôâ«8‚£§ó©1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸İÑ‡8‚£§ó©1
+V
+java:S1144"9Remove this unused private "binarySearch_inplace" method.(’†ƒÆ8Ì­ó©1

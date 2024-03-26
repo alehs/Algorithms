@@ -1,0 +1,11 @@
+
+[	java:S112v"FDefine and throw a dedicated exception instead of using a generic one.(Ããş
+Q	java:S125%"<This block of commented-out lines of code should be removed.(Á¼¸·
+>
+java:S1659P"#Declare "minV2" on a separate line.(ö«ê—ùÿÿÿÿ
+^
+java:S6355c"HAdd 'since' and/or 'forRemoval' arguments to the @Deprecated annotation.(õˆúš
+P
+java:S1133d"5Do not forget to remove this deprecated code someday.(¼ÄŒúÿÿÿÿ
+C
+java:S1123d"(Add the missing @deprecated Javadoc tag.(¼ÄŒúÿÿÿÿ

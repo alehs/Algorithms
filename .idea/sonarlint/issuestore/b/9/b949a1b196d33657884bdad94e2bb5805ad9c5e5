@@ -1,0 +1,10 @@
+
+c
+java:S1104"MMake A a static final constant or non-public and provide accessors if needed.(¶êè–
+h
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(‰«¢úÿÿÿÿ
+h
+java:S1104"MMake B a static final constant or non-public and provide accessors if needed.(äˆ¾øÿÿÿÿ
+a	java:S116"LRename this field "A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶êè–
+f	java:S116"LRename this field "B" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äˆ¾øÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(…” 

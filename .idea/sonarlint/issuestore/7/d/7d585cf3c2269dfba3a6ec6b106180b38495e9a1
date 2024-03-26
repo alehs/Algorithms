@@ -1,0 +1,14 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(á·Öùÿÿÿÿ
+[
+java:S21844"ECast one of the operands of this subtraction operation to a "double".(¤ì”
+V	java:S125"<This block of commented-out lines of code should be removed.(•Ë˜ïùÿÿÿÿ
+Z
+java:S3358("DExtract this nested ternary operation into an independent statement.(Ò–°•
+Z
+java:S3358*"DExtract this nested ternary operation into an independent statement.(÷ñíÌ
+Q	java:S125+"<This block of commented-out lines of code should be removed.(€ÄÊ¥
+A
+java:S1481?"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ
+V	java:S125F"<This block of commented-out lines of code should be removed.(•ùµòıÿÿÿÿ

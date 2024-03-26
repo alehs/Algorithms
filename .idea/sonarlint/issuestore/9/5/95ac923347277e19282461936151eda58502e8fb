@@ -1,0 +1,12 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÔ‹¶şÿÿÿÿ
+q
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "arr".(¡ÆÕÍ
+U
+java:S1118
+":Add a private constructor to hide the implicit public one.(€×òûÿÿÿÿ
+Z
+java:S2147"DCombine this catch with the one at line 22, which has the same body.(ï­£Ä
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

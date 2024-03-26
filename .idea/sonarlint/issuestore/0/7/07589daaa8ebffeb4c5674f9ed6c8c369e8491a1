@@ -1,0 +1,10 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(×Æáî8§§æ­1
+F
+java:S1197"*Move the array designators [] to the type.(×ÄÓ"8¨§æ­1
+v
+java:S3012&"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ò¦® 8¼¦æ­1
+v
+java:S30127"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ò¦® 8Éã’æ­1
+H
+java:S11442"+Remove this unused private "merge2" method.(ƒìœ®8•À“æ­1

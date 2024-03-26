@@ -1,0 +1,10 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(ğ…“áÿÿÿÿÿ8é’·õ©1
+L	java:S106"+Replace this use of System.out by a logger.(¤¸¤ûÿÿÿÿ8é’·õ©1
+`
+java:S1659(">Declare "b" and all following declarations on a separate line.(…¹Øşÿÿÿÿ8ê’·õ©1
+j	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ê÷—8ê’·õ©1
+o	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å¨öÏşÿÿÿÿ8ë’·õ©1
+M
+java:S2201Y"+The return value of "collect" must be used.(åı­ìûÿÿÿÿ8ë’·õ©1
+j	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÒƒØ8ì’·õ©1

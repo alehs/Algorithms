@@ -1,0 +1,21 @@
+
+\
+java:S1118	":Add a private constructor to hide the implicit public one.(ñ°²öüÿÿÿÿ8¡™ªÊ§1
+V
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(§ıåÜ8£™ªÊ§1
+V
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(ïÀ»²8¤™ªÊ§1
+F
+java:S1481")Remove this unused "eNum" local variable.(ïÀ»²8¤™ªÊ§1
+V
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(§ıåÜ8‹ÚæÊ§1
+V
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(ïÀ»²8‹ÚæÊ§1
+F
+java:S1481")Remove this unused "eNum" local variable.(ïÀ»²8¿ûæÊ§1
+V
+java:S2130$"9Use "Integer.parseInt" for this string-to-int conversion.(§ıåÜ8¾øúË§1
+V
+java:S2130%"9Use "Integer.parseInt" for this string-to-int conversion.(ïÀ»²8¾øúË§1
+F
+java:S1481%")Remove this unused "eNum" local variable.(ïÀ»²8¦ ûË§1

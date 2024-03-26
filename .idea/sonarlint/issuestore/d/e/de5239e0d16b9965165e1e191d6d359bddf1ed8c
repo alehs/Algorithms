@@ -1,0 +1,12 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ç›”äùÿÿÿÿ
+>
+java:S1604+"(Make this anonymous inner class a lambda(Ÿ±ğ
+V	java:S125"<This block of commented-out lines of code should be removed.(¼Á§üşÿÿÿÿ
+`
+java:S1155S">Use isEmpty() to check whether the collection is empty or not.(Í¦¸üÿÿÿÿ8§í«¨1
+i
+java:S2975^"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(øùÕ‘
+^
+java:S1182^"HUse super.clone() to create and seed the cloned instance to be returned.(øùÕ‘

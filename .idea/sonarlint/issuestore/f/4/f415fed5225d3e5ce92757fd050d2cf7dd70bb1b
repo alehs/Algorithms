@@ -1,0 +1,6 @@
+
+L	java:S1062"+Replace this use of System.out by a logger.(È°¿šøÿÿÿÿ8‰ÒµÅª1
+o
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ªé 8§¡žÅª1
+`
+java:S1155i">Use isEmpty() to check whether the collection is empty or not.(ÜÊ˜žýÿÿÿÿ8ª¡žÅª1

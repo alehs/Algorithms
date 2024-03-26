@@ -1,0 +1,11 @@
+
+o
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(‹§ä»
+@
+java:S1197"*Move the array designators [] to the type.(Ç£ÀÚ
+O
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(“‡íı
+@
+java:S1197$"*Move the array designators [] to the type.(Ïà×
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

@@ -5,13 +5,18 @@ import java.util.HashMap;
 public class DuplicateValues {
 
 	public static void main(String[] args) {
-		int[] arr = {9, 2, 3, 1, 5, 6, 7, 8, 4, 1};
+		int[] arr = {9, 2, 3, 1, 5, 6, 7, 8, 4, 9};
 		//int[] arr = {1,2,2,1};
 		System.out.println(findDuplicateHashMap(arr));
 		System.out.println(findDuplicateReversedBinarySearch(arr));
 		System.out.println(findDuplicateInPlaceHash(arr));
 	}
 
+	// If we don't have duplicates, then for each number in the array, the count of numbers that are less or equal to this number should be equal to the number itself.
+	// If we have duplicates, then the count of numbers that are less or equal to this number will be greater than the number itself.
+	// So we apply a binary search, taking middle value first and checking count of numbers that are less or equal to this number.
+	// If count is greater than the number itself, then we know that the duplicate value is less than the middle value.
+	// Otherwise, the duplicate value is greater than the middle value.
 	private static int findDuplicateReversedBinarySearch(int[] arr) {
 		int low = 1;
 		int high = arr.length;
